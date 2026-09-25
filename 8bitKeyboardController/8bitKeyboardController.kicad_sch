@@ -2095,6 +2095,187 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016)
@@ -3940,6 +4121,12 @@
 		(uuid "b52ca6af-bf03-463f-8e2a-2e4cab9b9907")
 	)
 	(junction
+		(at 90.17 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b65eabcb-112e-45f0-89d0-7a76639e7e71")
+	)
+	(junction
 		(at 236.22 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4143,6 +4330,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 77.47) (xy 55.88 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11d2cc8f-dea5-4df4-89eb-a4da0fc272dd")
+	)
+	(wire
+		(pts
 			(xy 166.37 17.78) (xy 254 17.78)
 		)
 		(stroke
@@ -4213,6 +4410,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 55.88) (xy 90.17 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c8e6636-070b-407f-a09a-728ae1351150")
+	)
+	(wire
+		(pts
 			(xy 142.24 95.25) (xy 142.24 116.84)
 		)
 		(stroke
@@ -4230,6 +4437,16 @@
 			(type default)
 		)
 		(uuid "21c7a63f-b638-43a4-b6be-02aa2480054a")
+	)
+	(wire
+		(pts
+			(xy 55.88 58.42) (xy 39.37 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "230376a1-f4a2-485d-a665-335cd6638eab")
 	)
 	(wire
 		(pts
@@ -4673,7 +4890,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 39.37) (xy 90.17 114.3)
+			(xy 90.17 39.37) (xy 90.17 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5193,6 +5410,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 55.88) (xy 90.17 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec92cec-697f-45a6-9ad5-b3559e34ab92")
+	)
+	(wire
+		(pts
 			(xy 143.51 85.09) (xy 80.01 85.09)
 		)
 		(stroke
@@ -5470,6 +5697,16 @@
 			(type default)
 		)
 		(uuid "b8792aaf-5b4b-4f73-88ea-752c612af341")
+	)
+	(wire
+		(pts
+			(xy 143.51 77.47) (xy 55.88 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8981358-1236-4e63-8d6a-fec4159e2866")
 	)
 	(wire
 		(pts
@@ -6101,7 +6338,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "22a3ae51-31dc-489c-9612-5770e5a6a750")
-		(property "Reference" "LEDS(opt)1"
+		(property "Reference" "LEDS(opt)3"
 			(at 35.56 25.146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6121,7 +6358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "8bitLibrary:LedConnector_6pin"
 			(at 34.29 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6175,7 +6412,7 @@
 		(instances
 			(project "8bitKeyboardController"
 				(path "/a5e65e59-cb49-494e-8c5a-918292f98166"
-					(reference "LEDS(opt)1")
+					(reference "LEDS(opt)3")
 					(unit 1)
 				)
 			)
@@ -6340,6 +6577,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 34.29 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "403cc99b-1804-4bf8-8069-386172cb8f0c")
+		(property "Reference" "CAPS_SWT_C64"
+			(at 34.925 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 34.925 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "8bitLibrary:ExtraSwitchConnector-2pin"
+			(at 34.29 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 34.29 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "928e1f7a-94a4-40ef-8a0f-e85c569d293b")
+		)
+		(pin "2"
+			(uuid "3c04be27-fda8-4d86-a249-c0cdbfe0590a")
+		)
+		(instances
+			(project "8bitKeyboardController"
+				(path "/a5e65e59-cb49-494e-8c5a-918292f98166"
+					(reference "CAPS_SWT_C64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "8BitLibrary:Cxx_Keyboard_Matrix_Connector_20pin")
 		(at 43.18 125.73 180)
 		(unit 1)
@@ -6371,7 +6688,7 @@
 				)
 			)
 		)
-		(property "Footprint" "8bitLibrary:8BitKeyboardConnector_Horizontal"
+		(property "Footprint" "8bitLibrary:8bitKeyboardConnector_Vertical"
 			(at 43.18 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -6615,7 +6932,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "844e87e7-603f-4f2c-883f-0ae17ddce5d7")
-		(property "Reference" "PS/2"
+		(property "Reference" "port-PS/2"
 			(at 261.62 39.624 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6637,7 +6954,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "8bitLibrary:PS2_Connector-6pin"
 			(at 265.43 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6691,7 +7008,7 @@
 		(instances
 			(project "8bitKeyboardController"
 				(path "/a5e65e59-cb49-494e-8c5a-918292f98166"
-					(reference "PS/2")
+					(reference "port-PS/2")
 					(unit 1)
 				)
 			)
@@ -6905,7 +7222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7398ee4-d187-4669-bbde-40233c5c3d32")
-		(property "Reference" "LVL1"
+		(property "Reference" "Level-Shifter-1"
 			(at 223.52 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6997,7 +7314,7 @@
 		(instances
 			(project "8bitKeyboardController"
 				(path "/a5e65e59-cb49-494e-8c5a-918292f98166"
-					(reference "LVL1")
+					(reference "Level-Shifter-1")
 					(unit 1)
 				)
 			)
@@ -7015,7 +7332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4efbc9b-3df8-476d-801d-7c31c42453e8")
-		(property "Reference" "MODE1"
+		(property "Reference" "PS/2"
 			(at 87.63 19.05 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7035,7 +7352,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "8bitLibrary:ModeSwitch-3pin"
 			(at 87.63 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -7080,7 +7397,7 @@
 		(instances
 			(project "8bitKeyboardController"
 				(path "/a5e65e59-cb49-494e-8c5a-918292f98166"
-					(reference "MODE1")
+					(reference "PS/2")
 					(unit 1)
 				)
 			)

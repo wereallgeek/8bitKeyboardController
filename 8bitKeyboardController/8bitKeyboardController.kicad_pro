@@ -648,7 +648,7 @@
         "uuid": "a5e65e59-cb49-494e-8c5a-918292f98166"
       }
     ],
-    "used_designators": "LVL1",
+    "used_designators": "LVL1,Level\\-Shifter1,PS/2\\-port1,Level\\-Shifter\\-1,J1",
     "variants": []
   },
   "sheets": [
