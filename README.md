@@ -27,7 +27,7 @@ There is also provision for an added capslock switch - meant mainly for C64 whil
 
 ## Firmware
 
-Compatible QMK/Vial firmware is present on my forl of Vial
+Compatible QMK/Vial firmware is present on my fork of Vial
 
 see https://github.com/wereallgeek/vial-qmk
 

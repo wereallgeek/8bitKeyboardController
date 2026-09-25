@@ -34,15 +34,15 @@
   (placement
     (component LOGO
       (place keymatrix 151500 -102500 front 0 (PN LOGO))
-      (place Geek 173000 -94000 back 0 (PN LOGO))
+      (place Geek 173000 -107000 back 0 (PN LOGO))
     )
     (component "8bitLibrary:ModeSwitch-3pin"
       (place MODE 163460 -77500 back 90 (PN "Mode 3pin switch"))
     )
     (component Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
-      (place RCAPS1 114340 -122500 front 0 (PN 330))
-      (place RSCROLL1 114340 -117500 front 0 (PN 330))
-      (place RNUM1 114340 -112500 front 0 (PN 330))
+      (place RCAPS1 114340 -122500 back 180 (PN 330))
+      (place RSCROLL1 114340 -117500 back 180 (PN 330))
+      (place RNUM1 114340 -112500 back 180 (PN 330))
     )
     (component 8bitLibrary:LedConnector_6pin
       (place "LEDS(opt)3" 108000 -112500 back 0 (PN "LEDS 6 pin connector"))
