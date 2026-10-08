@@ -92,8 +92,9 @@
 		(uuid "55812a8e-13e1-4782-a31e-67c6175fa924")
 		(at 151 102.5)
 		(property "Reference" "keymatrix"
-			(at 0 0 0)
+			(at 0.5 -1 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "89c48642-ef92-4b14-bfb0-b4f1ebe15877")
 			(effects
 				(font
@@ -9201,16 +9202,89 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 103.5 74)
-		(end 197 129)
+	(gr_arc
+		(start 103.5 78)
+		(mid 104.671573 75.171573)
+		(end 107.5 74)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
-		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "2f7af6a3-1976-479a-87c3-b338bf018a97")
+		(uuid "6cd36326-0573-492a-b4be-80c17411ed97")
+	)
+	(gr_line
+		(start 103.5 125)
+		(end 103.5 78)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "06d25808-38c7-41a8-b994-75f87a09e5ad")
+	)
+	(gr_line
+		(start 107.5 74)
+		(end 193 74)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b2561eef-3a17-40d6-ae80-9c8c4ddda6cc")
+	)
+	(gr_arc
+		(start 107.5 129)
+		(mid 104.671573 127.828427)
+		(end 103.5 125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7c2b925f-65cf-4158-a00f-dc7722cd22c9")
+	)
+	(gr_arc
+		(start 193 74)
+		(mid 195.828427 75.171573)
+		(end 197 78)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "08925b1f-f240-4698-9513-c12d039603a7")
+	)
+	(gr_line
+		(start 193 129)
+		(end 107.5 129)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1e39d0aa-e524-46a9-8356-4ebdae60db36")
+	)
+	(gr_line
+		(start 197 78)
+		(end 197 125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6b8306b9-f2ec-442c-99d7-a702a9192dc6")
+	)
+	(gr_arc
+		(start 197 125)
+		(mid 195.828427 127.828427)
+		(end 193 129)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "033f78b1-9383-422b-81ca-35f23da0daf8")
 	)
 	(gr_text "PS/2 MODE USB"
 		(at 163 76 0)
