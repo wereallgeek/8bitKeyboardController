@@ -1,4 +1,4 @@
-
+# 8bitKeyboardController - a retro keyboard matrix controller PCB
 # C16/C64 QMK/VIAL USB & PS/2 Keyboard controller
 
 ## Purpose
@@ -35,4 +35,14 @@ precompiled variants are available there
 
 https://github.com/wereallgeek/vial-qmk/tree/vial/binaries
 
+
+## Copyright (C) 2026 Marsupial (wereallgeeks.wordpress.com) 
+
+
+This PCB Design is free hardware: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation version 3,see [license](https://github.com/wereallgeek/8bitKeyboardController?tab=License-1-ov-file), as long as PCB attribution markings and silkscreen remains present on the final product.
+
+Commercial profitability is strictly prohibited
+
+This design is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE,  or FUNCTIONALITY. 
+See the [License](https://github.com/wereallgeek/8bitKeyboardController?tab=License-1-ov-file) for more details.
 
