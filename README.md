@@ -1,7 +1,7 @@
 # 8bitKeyboardController - a retro keyboard matrix controller PCB
-# C16/C64 QMK/VIAL USB & PS/2 Keyboard controller
+## C16/C64 QMK/VIAL USB & PS/2 Keyboard controller
 
-## Purpose
+### Purpose
 
 PCB to interface vintage 8bit keyboard with a Raspberry Pi pico to run as a Keyboard controller.
 
@@ -10,7 +10,7 @@ Meant to take a C16 or C64 keyboard matrix (different firmware) and map it on th
 The device is VIAL compliant and can be fully remapped at https://vial.rocks/
 
 
-## Hardware
+### Hardware
 
 This PCB has been developped on KiCad v10 
 
@@ -25,7 +25,7 @@ The hardware has provisions for keyboard leds but they currently are non-functio
 There is also provision for an added capslock switch - meant mainly for C64 while using a mechboard.
 
 
-## Firmware
+### Firmware
 
 Compatible QMK/Vial firmware is present on my fork of Vial
 
@@ -36,7 +36,7 @@ precompiled variants are available there
 https://github.com/wereallgeek/vial-qmk/tree/vial/binaries
 
 
-## Copyright (C) 2026 Marsupial (wereallgeeks.wordpress.com) 
+### Copyright (C) 2026 Marsupial (wereallgeeks.wordpress.com) 
 
 
 This PCB Design is free hardware: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation version 3,see [license](https://github.com/wereallgeek/8bitKeyboardController?tab=License-1-ov-file), as long as PCB attribution markings and silkscreen remains present on the final product.
