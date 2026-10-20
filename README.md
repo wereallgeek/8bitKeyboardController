@@ -12,6 +12,8 @@ The device is VIAL compliant and can be fully remapped at https://vial.rocks/
 
 ### Hardware
 
+The PCB can be obtained from [PCBWay's shared project (click here)](https://www.pcbway.com/project/shareproject/PS_2_USB_Vial_QMK_retro_keyboard_controller_56d30c1a.html)
+
 This PCB has been developped on KiCad v10 
 
 It has two 20-pin connectors, only one to be used depending on firmware. the C16 & C64 matrix are not compatible.
